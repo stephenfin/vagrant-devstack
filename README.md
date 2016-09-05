@@ -41,3 +41,7 @@ Once stacked, you can access the VM at `192.168.33.10`. You can also access
 the `screen` session in the VM per usual:
 
     $ screen -x
+
+When you're done, suspend to avoid having to stack each time:
+
+    $ vagrant suspend
