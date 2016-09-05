@@ -8,7 +8,7 @@ Vagrant.configure(2) do |config|
 
   config.vm.provider :libvirt do |domain|
     # basic config
-    domain.memory = 4096
+    domain.memory = 8192
     domain.cpus = 2
 
     # nested virt config
