@@ -18,7 +18,7 @@ used for the guest.
 
 2. Install `vagrant` and `vagrant-libvirt`:
 
-        $ sudo dnf install -y vagrant vagrant-libivrt
+        $ sudo dnf install -y vagrant vagrant-libvirt
 
 3. Enable and start required services:
 
