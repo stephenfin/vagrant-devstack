@@ -13,11 +13,8 @@ if [ ! -d $DEVSTACK_DIR ]; then
     popd
 fi
 
-if [ ! -f $DEVSTACK_DIR/local.conf ]; then
-    ln -s $ROOT_DIR/local.conf $DEVSTACK_DIR/local.conf
-fi
-
-whoami
+rm -f $DEVSTACK_DIR/local.conf
+ln -s $ROOT_DIR/local.conf $DEVSTACK_DIR/local.conf
 
 # Update system
 sudo dnf upgrade -y
